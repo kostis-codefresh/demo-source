@@ -14,10 +14,6 @@ spec:
     repoURL: https://github.com/kostis-codefresh/atlas-codefresh-demo
     targetRevision: HEAD
   syncPolicy:
-    automated:
-      prune: false
-      selfHeal: false
-      allowEmpty: false
     syncOptions:
       - PrunePropagationPolicy=foreground
       - Replace=false
